@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Uluru Phani Kumar — Aspiring Data Analyst</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="logo"><span class="dot"></span>Phani Kumar</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li><li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li><li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li><li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+      </button>
+      <div class="burger" id="burger" aria-label="Open menu"><span></span><span></span><span></span></div>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a>
+    <a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<section class="hero" id="home">
+  <canvas id="heroCanvas"></canvas>
+  <div class="wrap hero-inner">
+    <span class="eyebrow"><span class="blinker"></span>OPEN TO DATA ANALYST ROLES & INTERNSHIPS</span>
+    <h1>Uluru Phani Kumar<br><span class="ac">turns raw data into clear decisions.</span></h1>
+    <p class="role">Aspiring Data Analyst &amp; final-year CSE (Data Science) student, based in Ballari, India — passionate about building AI-driven tools that make data easier to understand.</p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+    </div>
+  </div>
+  <div class="scroll-cue"><span>SCROLL</span><div class="line"></div></div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <div class="section-head reveal"><span class="section-tag">// 01 — ABOUT</span><h2>A bit about me</h2></div>
+    <div class="about-grid reveal">
+      <div class="avatar-wrap">
+        <div class="avatar"><img src="profile.jpeg" alt="Uluru Phani Kumar"></div>
+        <span class="avatar-badge"><span class="pulse"></span>Ballari, India</span>
+      </div>
+      <div class="about-text">
+        <p>I'm Phani Kumar, a 7th-semester CSE (Data Science) student at Ballari Institute of Technology and Management. I'm deeply interested in working with data — uncovering patterns, building models, and turning numbers into stories that drive decisions.</p>
+        <p>That curiosity is steering me toward a career as a Data Analyst, where I get to combine statistics, programming, and visualization to solve real problems.</p>
+        <div class="meta-row">
+          <div class="meta-item"><span class="label">LOCATION</span><span class="value">Ballari, India</span></div>
+          <div class="meta-item"><span class="label">FOCUS</span><span class="value">Data Analysis & AI/ML</span></div>
+          <div class="meta-item"><span class="label">STATUS</span><span class="value">Final-Year Student</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <div class="section-head reveal"><span class="section-tag">// 02 — EXPERIENCE</span><h2>Projects & Practical Work</h2></div>
+    <div class="timeline reveal">
+      <div class="tl-item"><div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-top"><h3>PragyaDrishti: AI-Powered Data Analytics System</h3><span class="tl-duration">2026</span></div>
+          <div class="tl-org">Developer</div>
+          <ul class="tl-list">
+            <li>Built an AI-powered data visualization assistant using Python, Streamlit, Pandas & Scikit-learn that lets users upload datasets and query them conversationally via natural language.</li>
+            <li>Implemented an AutoML pipeline (Logistic Regression) that achieved 100% accuracy on a real student-results dataset, with automatic chart generation and anomaly alerts.</li>
+            <li>Designed the end-to-end architecture — data cleaning, NLP query processing, visualization, and an interactive dashboard with downloadable reports.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="tl-item"><div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-top"><h3>Centralized Digital Platform for Student Activity Records</h3><span class="tl-duration">2025</span></div>
+          <div class="tl-org">Developer</div>
+          <ul class="tl-list">
+            <li>Built a unified, centralized platform that consolidates comprehensive student activity records for higher education institutions in one place.</li>
+            <li>Designed the system to simplify access and tracking of student records that were previously scattered across multiple sources.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="section-head reveal"><span class="section-tag">// 03 — PROJECTS</span><h2>Things I've built</h2></div>
+    <div class="proj-grid reveal">
+      <div class="proj-card">
+        <div class="picon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M18.7 8l-5.5 5.5-3-3L3 17"/></svg></div>
+        <h3>PragyaDrishti</h3>
+        <p>An AI-powered data analytics assistant with conversational NLP querying, AutoML predictions, and automated chart generation — built to make data analysis accessible to non-technical users.</p>
+        <div class="proj-tags"><span class="proj-tag">Python</span><span class="proj-tag">Streamlit</span><span class="proj-tag">Scikit-learn</span><span class="proj-tag">NLP</span></div>
+      </div>
+      <div class="proj-card">
+        <div class="picon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></div>
+        <h3>Student Activity Records Platform</h3>
+        <p>A centralized digital platform that brings together comprehensive student activity records in higher education into a single, accessible system.</p>
+        <div class="proj-tags"><span class="proj-tag">Web Development</span><span class="proj-tag">Database</span></div>
+      </div>
+      <div class="gh-card">
+        <div class="gh-card-left">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.333-1.755-1.333-1.755-1.089-.745.084-.729.084-.729 1.205.084 1.84 1.237 1.84 1.237 1.07 1.834 2.807 1.305 3.492.997.108-.776.417-1.305.76-1.605-2.665-.303-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23A11.5 11.5 0 0112 5.803c1.02.005 2.04.137 3 .404 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          <div><h3>More on GitHub</h3><p>Explore my full code repositories, experiments, and ongoing work.</p></div>
+        </div>
+        <a href="https://github.com/Phani153" target="_blank" rel="noopener" class="btn btn-primary">View All Projects ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <div class="section-head reveal"><span class="section-tag">// 04 — SKILLS</span><h2>Tools & technologies</h2></div>
+    <div class="skills-cloud reveal">
+      <span class="skill-pill">Python</span><span class="skill-pill">Pandas</span><span class="skill-pill">NumPy</span>
+      <span class="skill-pill">Scikit-learn</span><span class="skill-pill">Machine Learning</span><span class="skill-pill">AutoML</span>
+      <span class="skill-pill">NLP</span><span class="skill-pill">Streamlit</span><span class="skill-pill">Matplotlib</span>
+      <span class="skill-pill">Plotly</span><span class="skill-pill">SQL / SQLite</span><span class="skill-pill">HTML / CSS / JS</span>
+      <span class="skill-pill">Data Visualization</span><span class="skill-pill">Data Cleaning</span><span class="skill-pill">Git & GitHub</span>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="wrap">
+    <div class="section-head reveal"><span class="section-tag">// 05 — EDUCATION</span><h2>Academic background</h2></div>
+    <div class="edu-card reveal">
+      <div class="edu-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div>
+      <div>
+        <h3>Bachelor of Engineering — Computer Science (Data Science)</h3>
+        <div class="edu-school">Ballari Institute of Technology and Management, Ballari</div>
+        <div class="edu-year">Expected Graduation — 2027</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact-section">
+  <div class="wrap">
+    <div class="section-head reveal" style="margin-bottom:24px"><span class="section-tag">// 06 — CONTACT</span><h2>Let's work together</h2></div>
+    <p class="reveal">I'm actively looking for Data Analyst opportunities and internships. Feel free to reach out — I'd love to talk about data.</p>
+    <div class="contact-links reveal">
+      <a class="clink" href="mailto:phaniu658@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M22 6l-10 7L2 6"/></svg>phaniu658@gmail.com</a>
+      <a class="clink" href="https://www.linkedin.com/in/uluruphanikumar" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45zM5.34 7.43a2.07 2.07 0 110-4.13 2.07 2.07 0 010 4.13zM7.12 20.45H3.56V9h3.56z"/></svg>LinkedIn</a>
+      <a class="clink" href="https://github.com/Phani153" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.333-1.755-1.333-1.755-1.089-.745.084-.729.084-.729 1.205.084 1.84 1.237 1.84 1.237 1.07 1.834 2.807 1.305 3.492.997.108-.776.417-1.305.76-1.605-2.665-.303-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23A11.5 11.5 0 0112 5.803c1.02.005 2.04.137 3 .404 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>GitHub</a>
+    </div>
+  </div>
+</section>
+
+<footer><div class="wrap"><span class="mono">© 2026 Uluru Phani Kumar · Ballari, India</span></div></footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
